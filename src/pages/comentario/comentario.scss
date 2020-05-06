@@ -1,0 +1,58 @@
+page-comentario {
+    .tet {
+        text-align: center;
+    }
+
+    .gd1 {
+        padding: 0px;
+        display:inline-block;
+    }
+
+    .tet1 {
+        text-align: right;
+    }
+
+    .gd2 {
+        color: black;
+        border-style: solid;
+        border-color: rgb(133, 131, 131);
+        height: 21%;
+        border-radius: 10px;
+        width: 97%;
+        position: relative;
+        top: -2%;
+        display: inline-block;
+    }
+
+    .estrelas input[type=radio] {
+        display: none;
+      }
+      .estrelas label i.fa:before {
+        content:'\f005';
+        color: #FC0;
+      }
+      .estrelas input[type=radio]:checked ~ label i.fa:before {
+        color: #CCC;
+      }
+
+      .estrelas {
+          position: relative;
+          left: 53%;
+          top: 0%;
+          display: inline-block;
+      }
+
+      .add {
+        border-radius: 2px;
+        font-size: 1.3REM;
+        color: black;
+        background-color: rgb(95, 95, 95);
+        width: 100%;
+        position: relative;
+        left: 0%;
+        top: 5%;
+        display: inline-block;
+      }
+
+
+}

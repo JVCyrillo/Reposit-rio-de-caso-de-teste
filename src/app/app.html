@@ -1,0 +1,47 @@
+<ion-split-pane>
+    <ion-menu [content]="content">
+      <ion-content no-padding>
+        <div class="dd"></div>
+        <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+        <h3>{{perfil.nome}}<button ion-button class="btt" menuClose (click)="openPage('BioPage')"><ion-icon name="checkbox-outline"></ion-icon></button>
+        </h3>
+        <div class="div1">
+        <ion-list no-lines >
+            <button class="side-menu-item" menuClose ion-item (click)="openPage('HomePage')">
+             <img class="custumer" src="assets/imgs/IconMyPub1.png"> <H1 no-padding>Home</H1>                                 
+            </button>   
+            <button class="side-menu-item" menuClose ion-item (click)="openPage('IndiquePage')">
+                <img class="custumer" src="assets/imgs/IcomMyPub2.png"> <H1 no-padding>Indique</H1>                                 
+              </button>
+          <button class="side-menu-item" menuClose ion-item (click)="openPage('PagamentosPage')">
+              <img class="custumer" src="assets/imgs/IcomMyPub3.png"> <H1 no-padding>Pagamentos</H1>                                 
+            </button>
+          <button class="side-menu-item" menuClose ion-item (click)="openPage('CupidoPage')">
+              <img class="custumer" src="assets/imgs/IcomMyPub4.png"> <H1 no-padding>Cupido</H1>                                 
+            </button>
+            <button class="side-menu-item" menuClose ion-item (click)="openPage('HistoricoPage')">
+                <img class="custumer" src="assets/imgs/IcomMyPub5.png"> <H1 no-padding>Historico</H1>                                 
+              </button>
+        </ion-list>
+            </div>
+            <div class="div2">  
+            <ion-list no-lines >
+            <button class="side-menu-item" menuClose ion-item (click)="openPage('HomePage')">
+                <img class="custumer" src="assets/imgs/IcomMyPub6.png"> <H1 no-padding>Configurações</H1>                                 
+              </button>
+                <button class="side-menu-item" menuClose ion-item (click)="openPage('HomePage')">
+                    <img class="custumer" src="assets/imgs/IcomMyPub7.png"> <H1 no-padding>Ajuda</H1>                                 
+                  </button>
+                  <button class="side-menu-item" menuClose ion-item (click)="logOut()">
+                      <img class="custumer" src="assets/imgs/IcomMyPub8.png"> <H1 no-padding>Logout</H1>                                 
+                    </button>
+          </ion-list>
+          </div>
+      </ion-content>
+   
+    </ion-menu>
+   
+    <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+    <ion-nav [root]="rootPage" main #content swipeBackEnabled="false"></ion-nav>
+   </ion-split-pane>
+   

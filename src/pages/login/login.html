@@ -1,0 +1,17 @@
+<ion-content>
+    <img src="assets/imgs/icones e logo mypub-13.png">
+    <form>
+    <ion-list>
+      <ion-item >
+        <ion-input [(ngModel)]="strEmail" name="email" type="email" inputmode="email" pattern="email" id="email" placeholder="Email" class="q" required></ion-input>
+      </ion-item>      
+      <ion-item >
+        <ion-input [(ngModel)]="strPassword" name="password" mode="ios" type="{{passwordtype}}" id="password" placeholder="Senha" class="q1" required></ion-input>
+      </ion-item>      
+      <a (click)=" recuperarSenha()">Esqueceu sua senha ?</a>
+    </ion-list>        
+    <button type="submit" ion-button (click)="doLogin()">Entrar</button>   
+    <a class="a1" (click)="doSignup()">Não tem uma conta? Cadastrar</a> 
+  </form>
+  
+</ion-content>

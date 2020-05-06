@@ -1,0 +1,227 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.menu-inner {
+    width: 53%;
+    color: black solid;
+}
+
+.input-wrapper{
+    display: inline-block;
+    height: 100%;
+    
+}
+
+
+
+
+ion-menu {
+    
+    
+    .btt {
+        position: relative;
+        top: 0%;
+        left: -12%;
+        display: inline !important;
+        background-color: transparent;
+        font-size: 2.4rem; 
+        margin-top: -4%; 
+    }
+    
+    .dd {
+        height: 90px;
+        width:110% ;
+        background-color: rgb(124, 124, 124);
+        margin-left: -5%;
+    }
+
+    .gy {
+        width: 47%;
+        height: auto;
+        padding: 2px;
+        background-color: black;
+        border-radius: 90px;
+        position: relative;
+        left: 25%;
+        top: -8% !important; 
+        display: block;
+             
+      }
+
+      h3 {
+          display: block;
+          color: white;
+          position: relative;
+          top: -10%;
+          left: 19%;
+      }
+
+      .div1 {
+          position: relative;
+          top: -11%;
+          display: block;
+          
+          
+          
+          
+      }
+
+      .div2 {
+        position: relative;
+        top: 2%;
+        display: block;
+        
+    }
+
+    .item-md {
+        background-color: black;
+        color: white;
+        padding-inline-end: 0%;
+        
+    }
+
+    .content-md {
+        background-color: black;
+    }
+
+    .content-ios {
+        background-color: black;
+    }
+
+    .item-ios {
+        background-color: black;
+        color: white;
+        padding-inline-end: 0%;
+    }
+
+    .custumer {
+        width: 25px !important;
+        height: 25px !important;
+        display: inline-block;
+        position: relative;
+        top: 0%; 
+              
+    }
+
+    .item-md h1 {
+        font-size: 1.4rem;
+        display: inline-block;
+        position: absolute;
+        top: 24%;
+        left: 25%;
+            
+
+    }
+
+    .item-ios h1 {
+        font-size: 1.4rem;
+        display: inline-block;
+        position: absolute;
+        top: 24%;
+        left: 25%;
+            
+
+    }
+
+    .label-md {
+        margin: 4px 6px -3px 0;
+    }
+
+    .label-ios {
+        margin: 4px 6px -3px 0;
+    }
+    
+    
+}
+
+
+
+
+
+  
+
+  
+
+.toolbar-background {
+    background-color: black !important;
+}
+
+ion-footer {
+    background-color: black  !important ;
+
+}
+
+.toolbar-title-md {
+    color: rgb(133, 131, 131);
+
+}
+
+.toolbar-title-ios {
+    color: rgb(133, 131, 131);
+}
+
+.bar-button-default-md {
+    color: rgb(133, 131, 131);
+}
+
+.bar-button-default-ios {
+    color: rgb(133, 131, 131);
+}
+
+.item-md.item-input.item-input-has-focus .item-inner,
+.item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: none !important;
+  -webkit-box-shadow:  none !important;
+  box-shadow:  none !important;
+}
+
+.list-md .item-input.item-input-has-focus:last-child,
+.list-md .item-input.input-has-focus:last-child {
+  border-bottom-color: none !important;
+  -webkit-box-shadow:  none !important;
+  box-shadow:  none !important;
+}
+
+.item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner,
+.item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+  border-bottom-color: none !important;
+  -webkit-box-shadow:  none !important;
+  box-shadow:  none !important;
+}
+
+.list-md .item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child,
+.list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child {
+  border-bottom-color: none !important;
+  -webkit-box-shadow:  none !important;
+  box-shadow: none !important;
+}
+
+.item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+    border-bottom-color: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  
+  .list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus):last-child {
+    border-bottom-color: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  
+
+
+
+

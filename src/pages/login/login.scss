@@ -1,0 +1,203 @@
+page-login {
+    .content-md {
+        background-color: black;
+        display: inline-block;
+    }
+    
+
+    .content-ios {
+      background-color: black;
+      display: inline-block;
+  }
+
+  
+
+  img {
+    display:block;
+    width: 35%;
+    position: relative;
+    top: 9%;
+    left: 31%;
+  }
+
+  .list-ios > .item-block:first-child {
+      border-color: black;
+  }
+
+  .item-ios {
+      color: beige;
+      background-color: rgb(48, 48, 48);
+  }
+
+  .list-md > .item-block:first-child {
+    border-color: black;
+}
+
+.item-md {
+    color: beige;
+    background-color: rgb(48, 48, 48);
+}
+
+  form, input, optgroup, select {
+    position: relative;  
+    top: 15%;
+  
+}
+
+.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+
+    border-color: black;
+}
+
+.button-ios {
+    color: beige;
+    background-color: rgb(104, 104, 104);
+    width: 76%;
+    
+    position: relative;
+    left: 10%;
+    
+}
+
+.list-md > .item-block:last-child, .list-md > .item-wrapper:last-child .item-block {
+
+  border-color: black;
+}
+
+.button-md {
+  color: beige;
+  background-color: rgb(104, 104, 104);
+  width: 76%;
+  
+  position: relative;
+  left: 10%;
+  
+}
+
+.q {
+       
+    border-style: solid;
+    border-color: rgb(133, 131, 131);
+    border-radius: 8px;
+    color: white;
+    display: inline-block;    
+    width: 81%;
+    position: relative;
+    top: 0%;
+    left: 7%;
+    height: 80%;    
+  }
+
+  .q1 {
+       
+    border-style: solid;
+    border-color: rgb(133, 131, 131);
+    border-radius: 8px;
+    color: white;
+    display: inline-block;   
+    width: 81%;
+    position: relative;
+    top: 0%;
+    left:7% ;
+    height: 80%;
+    
+  }
+
+  .list-ios .item-block .item-inner {
+
+    border-bottom: none;
+
+  }
+
+  .item-ios {
+      background-color: transparent;
+  }
+
+  .text-input-ios {
+    padding: 5px;
+    position: relative;
+    top: -15%;
+    margin: 13px 8px 9px 5px;
+  }
+
+  .list-md .item-block .item-inner {
+
+    border-bottom: none;
+
+  }
+
+  .item-md {
+      background-color: transparent;
+  }
+
+  .text-input-md {
+    padding: 5px;
+    position: relative;
+    top: -15%;
+    margin: 13px 8px 9px 5px;
+  }
+
+  a {
+      
+      display: inline-block;
+      position: relative;      
+      left: 51%;
+      color: white;
+  }
+
+  .a1 {
+      
+    display: inline-block;
+    position: relative;      
+    left: 36%;
+    color: white;
+}
+
+.item-md.item-input.item-input-has-focus .item-inner,
+.item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none ;
+}
+
+.item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+   border-bottom-color: none;
+   -webkit-box-shadow: none; 
+   box-shadow: none; 
+}
+
+.list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus):last-child {
+  border-bottom-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner,
+.item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+  border-bottom-color: none;
+  -webkit-box-shadow:  none;
+  box-shadow:  none;
+}
+
+.list-md .item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child,
+.list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child {
+  border-bottom-color: none;
+  -webkit-box-shadow:  none;
+  box-shadow:  none;
+}
+
+
+
+
+}
+
+
+ 
+
+
+ 
+  
+
+   
+
+

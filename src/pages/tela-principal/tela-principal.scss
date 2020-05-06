@@ -1,0 +1,54 @@
+page-tela-principal {
+    .scroll-content {
+        background-color: black;
+    }
+    ion-content {
+        .card {
+            background-color: rgb(88, 87, 87);
+            width: 60% !important ;
+            height:37% !important ;
+            position: relative;
+            top: 26%;
+            left: 18%;
+            border-radius: 30px;
+            
+        }
+        ion-card img {
+            width: 35%;
+            position: relative;
+            top: 12%;
+            left: 34%;
+            
+
+        }
+        ion-card {
+            .btt{
+                
+                position: absolute;
+                top: 75% !important;
+                left: 5% !important;
+                height:7% ;
+                width:88% ;
+                border-radius: 4px;
+                font-size: 87%;
+                color: black;
+                background-color: rgb(173, 171, 168);
+            }
+
+            .bts {
+                position: absolute;
+                top: 86% !important;
+                left: 5% !important;
+                height: 7%;
+                width: 88%;
+                border-radius: 4px;
+                font-size: 87%;
+                color : black;
+                background-color: rgb(173, 171, 168);
+
+            }
+
+        }
+    }
+
+}

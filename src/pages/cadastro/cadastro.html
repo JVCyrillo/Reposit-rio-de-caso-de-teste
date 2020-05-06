@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar></ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <img src="assets/imgs/icones e logo mypub-13.png">
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-input class="input" type="text"  required placeholder="Nome"
+        [(ngModel)]="strNome" id="nome" name="nome"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input class="input" type="number" id="cpf" name="cpf" required placeholder="Cpf"
+        [(ngModel)]="strCpf"></ion-input>
+      </ion-item>
+      <ion-item>
+      <ion-input class="input" type="number" id="datanasc" name="datanasc" required placeholder="Data de nascimento"
+      [(ngModel)]="strDataNasc"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input class="input" type="text" id="cidade" name="cidade" required placeholder="Cidade"
+        [(ngModel)]="strCidade"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input class="input" type="text" required placeholder="Estado" id="estado" name="estado"
+        [(ngModel)]="strEstado"></ion-input>
+      </ion-item>      
+      <ion-item>        
+        <ion-select class="select" name="genero" [(ngModel)]="generoValue" okText="Ok" cancelText="Cancelar" required placeholder="Gênero">
+          <ion-option value='masculino'>Masculino</ion-option>
+          <ion-option value='feminino'>Feminino</ion-option>
+          <ion-option value='outro'>Outro</ion-option>
+        </ion-select>      
+      </ion-item>
+      <ion-item>
+        <ion-input class="input" id="bio" name="bio" type="text" placeholder="Bio"
+        [(ngModel)]="strBio"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input class="input" id="email" name="email" type="email" required placeholder="E-mail"
+        [(ngModel)]="strEmail"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input class="input" type="password" name="senha" id="senha" required placeholder="Senha"
+        [(ngModel)]="strPass"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input class="input" type="password" id="cnfpass" name="cnfpass" required placeholder="Redigite a senha"
+        [(ngModel)]="strCnfPass"></ion-input>
+      </ion-item>
+      <ion-checkbox [(ngModel)]="termsAcceptedValue" name="termsAccepted" ></ion-checkbox>
+      <a>Li e aceito os termos de uso</a>
+  </ion-list>
+  <div padding>
+    <button ion-button (click)="registrar()" >Cadastrar</button>
+    <a class="a1" (click)="entrar()">Já possui uma conta? Entrar</a>
+  </div>
+  </form>
+</ion-content>

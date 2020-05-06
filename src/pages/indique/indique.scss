@@ -1,0 +1,56 @@
+page-indique {
+    .text {
+        text-align: center;
+    }
+
+    .kv {    
+        border-style: solid ;
+        border-color: rgb(95, 95, 95);
+        border-radius: 7px;
+        height: 9%;
+        display: inline-block;
+     }
+
+     .bbb {
+        color: black;
+        background-color: rgb(133, 131, 131);
+        border-radius: 10px;
+        width: 97%;
+        position: relative !important;
+        top: 5% !important;
+        display: block;
+
+     }
+
+     .q {
+       
+        border-style: solid;
+        border-color: rgb(133, 131, 131);
+        border-radius: 8px;
+        color: black;
+        display: block;
+        
+      }
+
+      .item-md.item-block .item-inner {
+        padding-right: 8px;
+        border-bottom: 1px solid #dedede;
+        position: relative;
+        left: -3%;
+    }
+
+    .item-ios.item-block .item-inner {
+        padding-right: 8px;
+        border-bottom: 1px solid #dedede;
+        position: relative;
+        left: -3%;
+    }
+
+    
+
+    
+
+     
+     
+     
+}

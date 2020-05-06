@@ -1,0 +1,57 @@
+page-pagamentos {
+    ion-header {
+        .titu {
+            text-align: center;
+        }
+
+    }
+
+    .scroll-content {
+        background-color: rgb(219, 219, 219);
+    }
+
+    .grid {
+        padding: 0px;
+        
+
+    }
+
+    
+    
+    ion-content {
+        .card {
+            border-radius: 7px;
+
+        }
+
+        .bbb {
+        
+            width: 94%;
+            color: black;
+            background-color: rgb(133, 131, 131);
+            border-radius: 4px;
+            position: relative;
+            left: 2%;
+        }
+
+
+        ion-grid {
+            .tet {
+                font-size: 1.2rem;
+                color : rgb(80, 78, 78);
+            } 
+            .tete {
+                font-size: 1.2rem;
+                text-align: center;
+                color: rgb(80, 78, 78);
+            } 
+            .tetu {
+                font-size: 1.2rem;
+                text-align: right;
+                color: rgb(80, 78, 78);
+            } 
+            
+        }
+    }
+
+}

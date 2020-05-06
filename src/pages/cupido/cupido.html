@@ -1,0 +1,123 @@
+<ion-header>
+  <ion-toolbar>
+    <button ion-button menuToggle><ion-icon name="menu"></ion-icon></button>
+    <ion-searchbar>Pesquisar</ion-searchbar>
+    <ion-buttons right>
+        <button ion-button >
+            <ion-icon name="camera"></ion-icon>
+        </button>
+      </ion-buttons>   
+  </ion-toolbar>
+</ion-header>
+
+<ion-content no-padding>
+<ion-grid class="gl">
+  <ion-row>
+    <ion-col>
+      <p> Ficar online </p>
+    </ion-col>
+    <ion-col>
+      <ion-toggle class="gh"></ion-toggle>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<div class="dd"></div>
+<ion-grid class="gd">
+  <ion-row>
+    <ion-col>
+      <p> Mostrar foto</p> 
+    </ion-col>
+    <ion-col>
+        <ion-toggle class="gh"></ion-toggle>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<!--<ion-item text-wrap [ngClass]="{active: isGroupShown(0)}">-->
+  <ion-list class="tyu">
+    <ion-item (click)="toggleGroup(0)" >
+      <p class="huj">Pessoas online neste bar</p>
+      <ion-icon color="light" item-right [name]="isGroupShown(0) ? 'arrow-dropdown' : 'arrow-dropright'"></ion-icon>
+    </ion-item>
+  </ion-list>
+  <div class="tui" *ngIf="isGroupShown(0)">
+    <ion-grid class="gddd">
+      <ion-row>        
+        <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+        <p class="iolp">Marina Souza</p>        
+      </ion-row>
+    </ion-grid>
+    <div class="dd"></div>
+    <ion-grid class="gddd">
+        <ion-row>        
+          <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+          <p class="iolp">Julia Fret</p>        
+        </ion-row>
+      </ion-grid>
+      <div class="dd"></div>
+    <ion-grid class="gddd">
+        <ion-row>        
+          <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+          <p class="iolp">Lucas der</p>        
+        </ion-row>
+      </ion-grid>
+      <div class="dd"></div>
+    <ion-grid class="gddd">
+        <ion-row>        
+          <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+          <p class="iolp">Marina </p>        
+        </ion-row>
+      </ion-grid>
+  </div>
+  <ion-list class="tyu2">
+      <ion-item (click)="toggleGroupp(0)" >
+        <p class="huj">Conversas antigas</p>
+        <ion-icon color="light" item-right [name]="isGroupShown(0) ? 'arrow-dropdown' : 'arrow-dropright'"></ion-icon>
+      </ion-item>
+    </ion-list>
+    <div class="tui2" *ngIf="isGroupShown(0)">
+      <ion-grid class="gddd">
+        <ion-row>        
+          <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+          <p class="iolp">Marina Souza</p>        
+        </ion-row>
+      </ion-grid>
+      <div class="dd"></div>
+      <ion-grid class="gddd">
+          <ion-row>        
+            <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+            <p class="iolp">Julia Fret</p>        
+          </ion-row>
+        </ion-grid>
+        <div class="dd"></div>
+      <ion-grid class="gddd">
+          <ion-row>        
+            <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+            <p class="iolp">Lucas der</p>        
+          </ion-row>
+        </ion-grid>
+        <div class="dd"></div>
+      <ion-grid class="gddd">
+          <ion-row>        
+            <img class="gy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwXQcioGkkPGwPrZH-14ONNU67KGE7RFkyieBTKyBAcIrssPF" alt="snow">
+            <p class="iolp">Marina </p>        
+          </ion-row>
+        </ion-grid>
+  
+    </div>
+<!--</ion-item>-->
+</ion-content>
+
+
+
+<ion-footer>
+    <ion-grid no-padding>
+      <ion-row>
+        <ion-col>
+          <button no-padding class="bt1" ion-button (click)="Vaii()" ><img class="bebida1" src="assets/imgs/IcomMyPub9.png"></button>
+        </ion-col>
+        <ion-col>
+          <button no-padding class="bt1" ion-button (click)="Vai()" ><img class="bebida" src="assets/imgs/IcomMyPub12.png"></button>
+        </ion-col>       
+      </ion-row>
+    </ion-grid>
+</ion-footer>

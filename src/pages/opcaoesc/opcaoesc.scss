@@ -1,0 +1,70 @@
+page-opcaoesc {
+    ion-content {
+        .rr {
+            position: relative;
+            left: 70% !important;
+            color: rgb(80, 78, 78);
+            font-size: 1.3rem;
+        }
+
+        .hy {
+            color: rgb(80, 78, 78);
+            font-size: 1.3rem;
+        }
+
+        .tt {
+            position: relative;
+            top: -4%;
+            left: 3%;
+            font-size: 1.0rem;
+            color: rgb(145, 144, 144);
+        }
+
+        .dd {
+            border-style: solid;
+            border-color: rgb(95, 95, 95);
+            height:20% ;
+            border-radius: 16px;
+        }
+
+        .x {
+            position: relative;
+            left: 4%;
+        }
+
+        .pp {
+            background-color: transparent;
+            font-size: 1.4rem;
+        }
+        
+        .kk {
+            border-style: solid ;
+            border-color: rgb(95, 95, 95);
+            border-radius: 10px;
+            width: 80%;
+            height: 89%;
+            position: relative;
+            left: -16%;
+        }
+        
+        .hhh {
+            position: relative;
+            top: 4%;
+        }
+
+        ion-grid {
+            .add {
+                border-radius: 2px;
+                font-size: 1.3REM;
+                color: black;
+                background-color: rgb(95, 95, 95);
+                position: relative;
+                top: -6%;
+                left: -22%;
+                width: 122%;
+            }           
+    }
+    
+
+}
+}

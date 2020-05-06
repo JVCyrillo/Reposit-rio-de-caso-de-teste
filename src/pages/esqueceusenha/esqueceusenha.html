@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-navbar></ion-navbar>
+</ion-header>
+
+<ion-content>
+    <img src="assets/imgs/icones e logo mypub-13.png">
+    <form>
+        <a>Enviaremos um link de recuperação de senha para o seu Email</a>
+        <ion-list>
+            <ion-item >
+              <ion-input class="q" [(ngModel)]="strEmail" type="text" required placeholder="Email" name="email"></ion-input>
+            </ion-item>           
+        </ion-list>  
+        <button type="submit" ion-button  (click)="recoverPassword()">Enviar</button>  
+    </form>

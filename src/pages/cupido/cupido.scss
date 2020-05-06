@@ -1,0 +1,226 @@
+page-cupido {
+        
+    .button-inner {
+        color:  rgb(133, 131, 131);
+    }
+    .searchbar-input {
+        background-color:  rgb(133, 131, 131) !important;
+        height:20%  ; 
+        border-radius: 11px !important;
+    }
+
+    .searchbar-md .searchbar-input {
+        height: 20%;
+    }
+
+    .searchbar-md .searchbar-search-icon {
+        left: 16px;
+        top: 7px;
+    }
+
+
+    ion-content {
+        .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+            border-bottom: 0;
+        }
+        
+        .list-ios {
+            margin: 0px 0 20px;
+        }
+        
+        .toggle-md {
+            position: relative;
+            left: 62% !important;
+            
+        }
+
+        .toggle-ios {
+            position: relative;
+            left: 62% !important;
+            top: 9%;
+            
+        }
+
+        .dd {
+            height: 2px;
+            width:100% ;
+            background-color: rgb(192, 191, 191);
+            position: relative;
+            top: -5%;
+        }
+
+        .gd {
+            position: relative;
+            top: -7%;
+        }
+        .gl {
+            position: relative;
+            top: -2%;
+        }
+        .ddd {
+            
+            
+            background-color: black;
+            position: relative;
+            
+        }
+
+        .p1 {
+            position: relative;
+            top: 0%;
+            color: white;
+            padding: 8px;
+        }
+
+        .tyu {
+            position: relative;
+            top: -10%;
+        }
+
+        .input-wrapper {
+            background-color: black;
+            padding-right: 0%;
+            height: 30px;
+           
+
+        }
+
+        .item-md {
+            padding-left: 0px;
+            width: 106%;
+            padding-right: 0% !important;
+            
+        }
+
+        .item-ios {
+            padding-left: 0px;
+            width: 109%;
+            padding-right: 0% !important;
+
+            
+        }
+
+        
+
+        .huj {
+            color: white;
+            position: relative;
+            left: 3%;
+        }
+
+        .item-md ion-icon[item-left], .item-md ion-icon[item-right], .item-md ion-icon[item-start], .item-md ion-icon[item-end] {
+            color: white;
+            position: relative;
+            left: -15%;
+            top: -19%;
+        }
+
+        .item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start], .item-ios ion-icon[item-end] {
+            color: white;
+            position: relative;
+            left: -15%;
+            top: -16%;
+        }
+
+        .item-md.item-block .item-inner {
+            padding-right: 0%;
+
+        }
+
+        .item-ios.item-block .item-inner {
+            padding-right: 0%;
+
+        }
+
+        .gy {
+            width: 10%;
+            height: 10%;
+            display: inline;
+        }
+
+        .gddd {
+            
+            display: inline-block;
+        }
+
+        .tui {
+            position: relative;
+            top: -16%;
+        }
+
+        .iolp {
+            position: relative;
+            left: 3%;
+            display: inline;
+            margin: 3%;
+        }
+
+        .tyu2 {
+            position: relative;
+            top: -16%;
+        }
+
+        .tui2 {
+            position: relative;
+            top: -22%;
+        }
+
+        
+    }
+
+    ion-footer {
+        
+        .bt1 {
+            box-shadow: none !important;
+            color: black !important;
+            background: none !important;
+            font-size: 3.0rem !important;
+            position: relative;
+            left: 2%;
+        }
+    }
+
+    .footer-ios {
+        height: 7%;
+
+        .bt1 {
+            box-shadow: none !important;
+            color: black !important;
+            background: none !important;
+            font-size: 3.0rem !important;
+            position: relative;
+            left: 2%;
+            top: -24%;
+        }
+
+    }
+
+    .bar-button-ios {
+        font-size: 2.7rem;
+    }
+
+    .bar-button-md {
+        font-size: 2.0rem;
+
+    }
+
+    .bebida {
+        width: 17%;
+    }
+
+    .bebida1 {
+        width: 14%;
+    }
+
+    .label-md {
+        margin: 7px 8px 13px 0;
+    }
+
+    .label-ios {
+        margin: 7px 8px 13px 0;
+    }
+   
+
+    
+
+}

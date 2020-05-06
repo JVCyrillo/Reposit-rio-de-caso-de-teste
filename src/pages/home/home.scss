@@ -1,0 +1,105 @@
+page-home {
+    .button-inner {
+        color:  rgb(133, 131, 131);
+    }
+    .searchbar-input {
+        background-color:  rgb(133, 131, 131) !important;
+        height:20%  ; 
+        border-radius: 11px !important;
+    }
+
+    .searchbar-md .searchbar-input {
+        height: 20%;
+    }
+   
+
+    .scroll-content {
+        background-color: rgb(219, 219, 219) !important;
+    }
+
+    
+
+    .searchbar-md .searchbar-search-icon {
+        left: 16px;
+        top: 7px;
+    }
+
+    
+    
+    ion-content {
+        .xx {
+            border-radius: 7px !important;
+            width: 103%;
+            position: relative;
+            right: 5%;
+            top: -3%;
+            background-color: aliceblue;
+            
+        }
+        ion-card {
+            .tt {
+                height: 137px;
+                width: 100% !important;
+                position: relative;
+               
+            }
+            .sub {
+                position: relative;
+                left: 4%;
+            }
+        }
+    }
+
+    ion-footer {
+        
+        .bt1 {
+            box-shadow: none !important;
+            color: black !important;
+            background: none !important;
+            font-size: 3.0rem !important;
+            position: relative;
+            left: 2%;
+        }
+
+    }
+
+     .footer-ios {
+        height: 7%;
+
+        .bt1 {
+            box-shadow: none !important;
+            color: black !important;
+            background: none !important;
+            font-size: 3.0rem !important;
+            position: relative;
+            left: 2%;
+            top: -24%;
+        }
+
+    }
+
+    .bar-button-ios {
+        font-size: 2.7rem;
+    }
+
+    .bar-button-md {
+        font-size: 2.0rem;
+
+    }
+
+    .bebida {
+        
+        width: 17%;
+    }
+
+    .bebida1 {
+        
+        width: 14%;
+    }
+
+
+    
+
+    
+
+}
